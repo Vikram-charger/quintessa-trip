@@ -11,13 +11,23 @@ Air Ticket App is an application where an user can able to see available tickets
 #### Feature 3 - Displaying Flights.
 * status: completed.
 
-#### Feature 4 - Price Estimation.
+#### Feature 4 - Booking Ticket.
 ***
-This feature provides an user can able to know how much ticket price based on age criteria.
+This feature provides an user can able to book ticket.
 * status: completed.
-## Description
-1. If the passenger is a senior citizen, he/she get 50% discount.
-2. For passenger between age 2 to 13, get 50% discount.
-3. For infant no charge of amount.
-4. For adult, full fare is applicable.
+
+#### Feature 5 - Display Ticket.
+***
+This feature display the ticket.
+* status: completed.
+
+#### Feature 5 - Printing Ticket.
+***
+This feature allows the user to print the ticket as pdf.
+* status: completed.
+
+## Discounts
+1. For passenger between age 2 to 13, get 50% discount.
+2. For infant no charge of amount.
+3. For adult, full fare is applicable.
 

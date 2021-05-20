@@ -101,7 +101,7 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="alignright">
+                                                    <td class="alignleft">
                                                         <button class="btn btn-warning" id="pay">Pay</button>
                                                         <br>
                                                     </td>
@@ -156,6 +156,21 @@
         document.getElementById('children').innerHTML = children;
         document.getElementById('infant').innerHTML = infant;
         document.getElementById('price').innerHTML = price;
+
+        let payButton = document.getElementById('pay');
+        let printButton = document.getElementById('printTicket');
+
+        payButton.addEventListener("click", function () {
+            alert("Payment still on progress");
+        });
+
+        printButton.addEventListener("click", function () {
+            printButton.hidden = false;
+            if (!printButton.hidden) {
+                printButton.hidden = true;
+            }
+            window.print();
+        });
     </script>
 </body>
 
